@@ -1,0 +1,33 @@
+# Python envs and caches
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Model weights / downloads (don't commit large model files)
+models/
+*.pt
+*.bin
+*.safetensors
+*.ckpt
+
+# Runtime artifacts
+*.log
+outputs/
+tmp/
+
+# Editor / OS
+.vscode/
+*.swp
+.DS_Store
+
+# Secrets
+.env
+*.pem
+*.key
+
+# Optional: keep requirements and code only
+!requirements.txt
+!README.md
